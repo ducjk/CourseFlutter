@@ -61,6 +61,7 @@ class SliderPage extends StatelessWidget {
       child: SingleChildScrollView(
         scrollDirection: Axis.vertical,
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             ..._listCourses.map((e) {
               return Container(
